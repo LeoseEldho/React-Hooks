@@ -13,7 +13,7 @@ const reduser=(state,action)=>{
             return state
     }
 }
-//udfyul
+
 function CounterThree() {
  const [count,dispatch]= useReducer(reduser,initialstate)
  const [countTwo,dispatchTwo]=useReducer(reduser,initialstate)

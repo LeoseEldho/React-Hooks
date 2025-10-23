@@ -18,7 +18,7 @@ let isEven=useMemo(()=>{
     return counterOne%2==0
 },[counterOne]
 )
-//fnckls
+
   return (
     <div>
       <div >{counterOne} {isEven?'Even':'Odd'}</div>

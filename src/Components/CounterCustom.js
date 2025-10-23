@@ -13,4 +13,3 @@ const [count,increment,reset,decremnt]=UseCounter()
 }
 
 export default CounterCustom
-//dhjhkj

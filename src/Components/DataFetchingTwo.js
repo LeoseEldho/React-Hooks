@@ -45,5 +45,4 @@ function DataFetchingTwo() {
   );
 }
 
-//fsdfj
 export default DataFetchingTwo;

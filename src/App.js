@@ -25,6 +25,8 @@ import DocTitleTwo from './Components/DocTitleTwo';
 import CounterCustom from './Components/CounterCustom';
 import CounterCustomTwo from './Components/CounterCustomTwo';
 import UserForm from './Components/UserForm';
+import FileOne from './UseHook/FileOne';
+import UseContext from './UseHook/UseContext';
 // export const countContext=React.createContext()
 
 
@@ -33,7 +35,11 @@ function App() {
 
   return (
     <div>
-        <UserForm></UserForm>
+      
+      <UseContext>
+        <FileOne/>
+      </UseContext>
+
         {/* <CounterCustom></CounterCustom>
         <CounterCustomTwo></CounterCustomTwo> */}
         {/* <DocTitleTwo></DocTitleTwo><br></br> */}
